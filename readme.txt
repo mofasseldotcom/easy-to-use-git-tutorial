@@ -1,4 +1,4 @@
-# How to use git and github?
+#How to use git and github?
 	Here all the steps and git bash code snippet are discussed shortly but effectively.
 
 #1. to set name and email address for a repo
