@@ -1,5 +1,6 @@
 #How to use git and github?
-	<p>Here all the steps and git bash code snippet are discussed shortly but I tried to set those step by step. I personally use these steps and those work for me effectively. Hope it will be help full for beginners.</p>
+
+<p>Here all the steps and git bash code snippet are discussed shortly but I tried to set those step by step. I personally use these steps and those work for me effectively. Hope it will be help full for beginners.</p>
 
 #1. to set name and email address for a repo
 	git config --global user.name "mofassel"
