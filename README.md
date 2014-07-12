@@ -1,5 +1,5 @@
 #How to use git and github?
-	Here all the steps and git bash code snippet are discussed shortly but I tried to set those step by step. I personally use these steps and those work for me effectively. Hope it will be help full for beginners.
+	<p>Here all the steps and git bash code snippet are discussed shortly but I tried to set those step by step. I personally use these steps and those work for me effectively. Hope it will be help full for beginners.</p>
 
 #1. to set name and email address for a repo
 	git config --global user.name "mofassel"
@@ -36,4 +36,4 @@
 	git push -u origin master
 	git push -u github master
 	
-#I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome
+<p>I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome</p>
