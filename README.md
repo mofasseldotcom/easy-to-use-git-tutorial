@@ -36,5 +36,15 @@
 #10. To upload/push local repo to github repo (note: origin = origin and github = github)
 	git push -u origin master
 	git push -u github master
+
+#11. To see existing branch and create new branch
+	git branch
+	git branch new_branch_name
+
+#12. To enter/switch into new branch
+	git checkout new_branch_name
+
+#13. To make a clone of master branch repo to a new branch
+	git clone ssh-repo-url
 	
 <p>I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome</p>
