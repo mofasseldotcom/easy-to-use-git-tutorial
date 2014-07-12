@@ -42,5 +42,3 @@
 
 #13. To make a clone of master branch repo to a new branch
 	git clone ssh-repo-url
-
-#14. 
