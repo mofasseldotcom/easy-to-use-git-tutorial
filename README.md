@@ -22,8 +22,8 @@
 	git log --oneline
 	git commit -a -m "commit message goes here" // it will directly add and commit. it must use with existing file that were commited before not very new file.
 
-#7. when our log message will be larger than screen then their will be appeared a message named "end"
-	We need to press shift+zz to be end and come to regular place.
+#7. when our log message will be larger than terminal screen then their will be appeared a message named "end" at the bottom of the screen
+	shift+zz //We need to press shift+zz to be get rid of from here.
 
 #8. To create and use ssh key follow this link
 	https://help.github.com/articles/generating-ssh-keys
