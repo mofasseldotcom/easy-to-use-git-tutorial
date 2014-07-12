@@ -5,12 +5,10 @@
 	git config --global user.name "mofassel"
 	git config --global user.email "mofassel.me@gmail.com"
 
-#2. To initiating git repo
-Need to create a directory where to set the local repo named gitrepo.git
+#2. To initiating git repo we need to create a directory where to set the local repo named gitrepo.git
 	git init gitrepo.git
 #3. when we create a file in gitrepo.git folder then we need to add it before making commit
 	git add . or git add filename
-then
 	git commit -m "commit message here"
 #4. We can see status or log message
 	git status
@@ -30,8 +28,10 @@ then
 #8. To create and use ssh key follow this link
 	https://help.github.com/articles/generating-ssh-keys
 
-#9. Commands to connect your local repo with githup repo
+#9. Commands to connect your local repo with githup repo (either 1st one or 2nd one)
 	git remote add origin your-github-project-ssh-url
+	git remote add github your-github-project-ssh-url
 
-#10. To upload/push local repo to github repo
-	git push -u origin master 
+#10. To upload/push local repo to github repo (note: origin = origin and github = github)
+	git push -u origin master
+	git push -u github master
