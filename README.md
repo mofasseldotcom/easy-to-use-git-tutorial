@@ -44,7 +44,16 @@
 #12. To enter/switch into new branch
 	git checkout new_branch_name
 
-#13. To make a clone of master branch repo to a new branch
+#13. To make a clone of master branch repo to a new branch (needed for different PC). First checkout into that brach...
 	git clone ssh-repo-url
+
+#14. To delete a local branch
+	git branch -d branchName
+
+#15. To delete a remote branch
+	git push origin :branchName
+
+#16. To import remote branch into local repo with same branch name like remote
+	git fetch origin branchName:branchName
 	
 <p>I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome</p>
