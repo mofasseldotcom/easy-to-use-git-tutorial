@@ -53,5 +53,3 @@
 
 #17. To import remote branch into local repo with same branch name like remote
 	git fetch origin branchName:branchName
-	
-<p>I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome</p>
