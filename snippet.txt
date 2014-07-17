@@ -56,3 +56,6 @@
 
 #17. To import remote branch into local repo with same branch name like remote
 	git fetch origin branchName:branchName
+
+#18. To merge branch repo with master repo (checkout into master first, need to make additional commit to see changes in master after merge command)
+	git merge origin branchName
