@@ -8,12 +8,15 @@
 
 #2. To initiating git repo we need to create a directory where to set the local repo named gitrepo.git
 	git init gitrepo.git
+	
 #3. when we create a file in gitrepo.git folder then we need to add it before making commit
 	git add . or git add filename
 	git commit -m "commit message here"
+
 #4. We can see status or log message
 	git status
 	git log
+
 #5. We can see difference with old file when their is a change
 	git diff //before adding it using git add command
 	git diff --cached //when it is already added/staged
