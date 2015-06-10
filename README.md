@@ -99,5 +99,12 @@
 <h3>13.3. To create branch from a specific tagname to edit a tag</h3>
 	git checkout -b newbranch tagname
 
+<h3>13.4. To delete a local tag</h3>
+	git tag -d tagname
+
+<h3>13.5. To delete a remote tag</h3>
+	git push --delete origin tagname
+	git push origin :tagname
+
 	
 <p>I collected and gathered all the codes above to use easily from one place. If anyone wants to update some codes or snippets he/she is most welcome</p>
