@@ -19,6 +19,7 @@ Here all the steps and git bash code snippet are discussed shortly but I tried t
 
 ###4. Git commit: 
 This step help us to set a custom message against all the changes that we made and added in last step before pushing those to remote repo.
+
 	git commit -m "commit message here"
 	git commit -a -m "commit message goes here" // it will directly add and commit. it must use with existing file that were commited before not very new file.
 
