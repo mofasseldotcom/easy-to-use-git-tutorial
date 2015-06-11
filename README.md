@@ -10,18 +10,20 @@ Here all the steps and git bash code snippet are discussed shortly but I tried t
 	git config --list
 
 ###2. To initiating git repo we need to create a directory where to set the local repo named gitrepo.git
-	git init gitrepo.git
+	git init // or
+	git init gitrepo.git // gitrepo.git is your custom name of git repo
 
-###3. When we create a file in gitrepo.git folder then we need to add it before making commit
+###3. When we create a file in git project folder then we need to add it before making commit
 	git add . or git add filename
 	
 
-###4. Shortcut for status, log and for speedy add+commit
+###4. Git commit: 
+This step help us to set a custom message against all the changes that we made and added in last step before pushing those to remote repo.
 	git commit -m "commit message here"
 	git commit -a -m "commit message goes here" // it will directly add and commit. it must use with existing file that were commited before not very new file.
 
 ###4.1. To delete/remove a commit to switch head to that commit.
-NB: all latest commit that were commited after reset commit will be deleted.
+NB: All latest commit that were commited after reset commit will be deleted.
 	git reset --hard commit_id
 
 ###5. We can see status or log message
