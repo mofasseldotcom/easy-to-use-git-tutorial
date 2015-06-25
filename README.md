@@ -25,6 +25,7 @@ This step help us to set a custom message against all the changes that we made a
 
 ###4.1. To delete/remove a commit to switch head to that commit.
 NB: All latest commit that were commited after reset commit will be deleted.
+
 	git reset --hard commit_id
 
 ###5. We can see status or log message
@@ -52,6 +53,7 @@ NB: All latest commit that were commited after reset commit will be deleted.
 
 ###10.1. To force push a specific commit to remote repo
 NB: Sometime you may want to delete a specific commit from remote repo and change the head to its previous commit
+
 	git push origin +commit_id^:master
 
 ###11. To download/pull remote repo into local repo folder (note: do pull before each push - recommended)
