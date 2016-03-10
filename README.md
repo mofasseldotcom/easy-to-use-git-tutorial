@@ -90,7 +90,7 @@ Branching is used to create individual environment for developing any new featur
 	git fetch origin branchName:branchName
 
 ###12.9. To merge branch repo with master repo (checkout into master first, need to make additional commit to see changes in master after merge command)
-	git merge origin branchName
+	git merge branchName
 
 ##13. TAGGING AND RELEASING A REPO IN GIT
 Tag is used to create version of the repo and it helps ot release that version while it is ready to release.
